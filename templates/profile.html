@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .profile-info {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .button {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+        .button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-info">
+        <h2>💻 Профиль</h2>
+        <p>┠ Ваша ссылка: <a href="https://t.me/lgndtmwabot?start=ref123">https://t.me/lgndtmwabot?start=ref123</a></p>
+        <p>┠ Всего 0 лидов</p>
+        <p>┠ На сумму 0$</p>
+        <p>🏦 Для вывода нужно 5.0$, у вас 0$</p>
+        <p>┗💼 Не хватает 5.00$ для вывода.</p>
+    </div>
+    <button class="button" onclick="window.location.href='/main_menu'">Назад</button>
+</body>
+</html>
